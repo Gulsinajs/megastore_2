@@ -99,7 +99,11 @@ select{
 .cost{
     width: 200px;
     height: 48px;
-    margin: 16px 8px 16px 0;
+    margin: 16px 8px 0 0;
+}
+
+.product_store{
+    margin-top: 16px;
 }
 
 .name_company{
