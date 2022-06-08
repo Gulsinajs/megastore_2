@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+body{
+    background-color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 664px;
+    height: 608px;
+    background-color: #fff;
+    margin: 248px 400px;
+    text-align: left;
+    border-radius: 8px;
+    font-family: 'Sora', sans-serif;
+    box-shadow: 0 6px 24px;
+}
+
+.content h1{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content p{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.content input,
+.content select{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #DADADA;
+}
+
+.first-container,
+.second-container{
+    margin-left: 24px;
+}
+
+h1, p{
+    margin-left: 20px;
+}
+
+input,
+select{
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    text-indent: 16px;
+}
+
+.form_heading{
+    padding-top: 40px;
+}
+
+.name_company{
+    width: 408px;
+    height: 48px;
+}
+
+.name_post{
+    width: 200px;
+    height: 48px;
+    margin-left: 8px;
+}
+
+.salary{
+    width: 304px;
+    height: 48px;
+    margin-top: 16px;
+}
+
+.last_salary{
+    margin-left: 8px;
+}
+
+.product{
+    width: 625px;
+    height: 48px;
+}
+
+.cost{
+    width: 200px;
+    height: 48px;
+    margin: 16px 8px 16px 0;
+}
+
+.name_company{
+    margin-top: 24px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button-group button{
+    width: 384px;
+    height: 48px;
+    background-color: #232529;
+    border-radius: 4px;
+}
+
+.button-group a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.second_button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -9,27 +9,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
-        <form action="#">
-            <h1 class="form_heading">Данные о ваших доходах</h1>
+<div class="content">
+    <form action="#">
+        <h1 class="form_heading">Данные о ваших доходах</h1>
+        <div class="first-container">
             <input tabindex="1" class="name_company" type="text" placeholder="Наименование организации">
             <input tabindex="2" class="name_post" type="text" placeholder="Должность"><br>
             <input tabindex="3" class="salary" type="text" placeholder="Заработная плата в  месяц">
-            <input tabindex="4" class="last_salary" type="text" placeholder="Заработная Плата  за посл.  3 месяца">
-            <div class="container">
-                <p class="text_info">Сведения о кредите</p>
-                <input tabindex="5" class="product" type="text" placeholder="Покупка телефона ( наименование товара)"><br>
-                <input tabindex="6" class="cost" type="number" placeholder="Стоимость товара">
-                <input tabindex="7" type="number" placeholder="Количество товара">
-                <input tabindex="8" type="number" placeholder="Итого сумма кредита"><br>
-                <input tabindex="9" type="text" placeholder="Вид кредита ">
-                <input tabindex="10" type="number" placeholder="Срок кредита ( мес)"><br>
-                <input tabindex="11" type="text" placeholder="Точка получения товара">
-            </div>
-            <div class="button-group second_button">
-                <button><a href="#">Далее</a></button>
-            </div>
-        </form>
-    </div>
+            <input tabindex="4" class="salary last_salary" type="text"
+                   placeholder="Заработная Плата  за посл.  3 месяца">
+        </div>
+        <p class="text_info">Сведения о кредите</p>
+        <div class="second-container">
+            <input tabindex="5" class="product" type="text" placeholder="Покупка телефона ( наименование товара)"><br>
+            <input tabindex="6" class="cost" type="number" placeholder="Стоимость товара">
+            <input tabindex="7" class="cost" type="number" placeholder="Количество товара">
+            <input tabindex="8" class="cost" type="number" placeholder="Итого сумма кредита"><br>
+            <select tabindex="9" class="cost" name="credit" id="">
+                <option value="selected">Вид кредита</option>
+                <option value="1">Комерческий</option>
+                <option value="2">Потребительский</option>
+            </select>
+            <select tabindex="10" class="cost" name="credit_term" id="">
+                <option value="selected">Срок кредита ( мес)</option>
+                <option value="1">12</option>
+                <option value="2">24</option>
+            </select><br>
+            <select tabindex="11" class="product" name="" id="">
+                <option value="selected">Точка получения товара</option>
+                <option value="1">Green street 1</option>
+                <option value="2">Red street 2</option>
+            </select>
+        </div>
+        <div class="button-group second_button">
+            <button><a href="#">Далее</a></button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
