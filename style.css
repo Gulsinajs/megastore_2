@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
 
 body{
-    background-color: #000;
+    background-color: #fff;
 }
 
 *{
@@ -131,6 +131,7 @@ select{
     letter-spacing: 1px;
     color: #fff;
 }
+
 .second_button{
     margin-top: 40px;
     margin-bottom: 40px;
