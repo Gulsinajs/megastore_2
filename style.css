@@ -2,6 +2,8 @@
 
 body{
     background-color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 *{
@@ -10,34 +12,52 @@ body{
     box-sizing: border-box;
 }
 
-.content{
-    width: 664px;
-    height: 608px;
+.content-page{
+    width: 360px;
+    height: 1300px;
     background-color: #fff;
-    margin: 248px 400px;
     text-align: left;
-    border-radius: 8px;
-    font-family: 'Sora', sans-serif;
-    box-shadow: 0 6px 24px;
-}
-
-.content h1{
     font-family: 'Sora', sans-serif;
     font-style: normal;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 16px;
+}
+
+.content-page h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.page_data{
+    font-family: 'Sora', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-}
-
-.content p{
-    font-family: 'Sora', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
     margin-top: 16px;
     margin-bottom: 8px;
 }
+
+.page-flex p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.page-flex input{
+    text-indent: 16px;
+    width: 328px;
+    height: 48px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
 
 .content input,
 .content select{
