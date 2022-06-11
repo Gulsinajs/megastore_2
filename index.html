@@ -9,39 +9,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="content">
+<div class="content-page">
     <form action="#">
-        <h1 class="form_heading">Данные о ваших доходах</h1>
-        <div class="first-container">
-            <input tabindex="1" class="name_company" type="text" placeholder="Наименование организации">
-            <input tabindex="2" class="name_post" type="text" placeholder="Должность"><br>
-            <input tabindex="3" class="salary" type="text" placeholder="Заработная плата в  месяц">
-            <input tabindex="4" class="salary last_salary" type="text"
-                   placeholder="Заработная Плата  за посл.  3 месяца">
+        <div class="page-flex">
+            <h1>Анкета для корпоративных клиентов</h1>
+            <p>Паспортные данные</p>
+            <p>Серийный номер AN/ID</p>
+            <input tabindex="1" class="passport" type="text" placeholder="AN1234567">
         </div>
-        <p class="text_info">Сведения о кредите</p>
-        <div class="second-container">
-            <input tabindex="5" class="product" type="text" placeholder="Покупка телефона ( наименование товара)"><br>
-            <input tabindex="6" class="cost" type="number" placeholder="Стоимость товара">
-            <input tabindex="7" class="cost" type="number" placeholder="Количество товара">
-            <input tabindex="8" class="cost" type="number" placeholder="Итого сумма кредита"><br>
-            <select tabindex="9" class="cost" name="credit" id="">
-                <option value="selected">Вид кредита</option>
-                <option value="1">Комерческий</option>
-                <option value="2">Потребительский</option>
-            </select>
-            <select tabindex="10" class="cost" name="credit_term" id="">
-                <option value="selected">Срок кредита ( мес)</option>
-                <option value="1">12</option>
-                <option value="2">24</option>
-            </select><br>
-            <select tabindex="11" class="product product_store" name="" id="">
-                <option value="selected">Точка получения товара</option>
-                <option value="1">Green street 1</option>
-                <option value="2">Red street 2</option>
+        <div class="page-flex">
+            <p>ИНН</p>
+            <input tabindex="2" class="" type="number" placeholder="12345678987654">
+        </div>
+        <div class="page-flex">
+            <p>Дата получения</p>
+            <input tabindex="3" type="date" placeholder="12.12.2021">
+        </div>
+        <div class="page-flex">
+            <p>Наименование банка</p>
+            <select tabindex="4" name="select_bank" id="">
+                <option value="selected">Выберите банка</option>
+                <option value="1">Бакай банк</option>
+                <option value="2">Дос кредо банк</option>
             </select>
         </div>
-        <div class="button-group second_button">
+        <div class="page-flex">
+            <p>Место проживания по прописке</p>
+            <input tabindex="5" type="text" placeholder="Бишкек. Чорморова 23/3 кв.43">
+        </div>
+        <div class="page-flex">
+            <p>Данные о ваших доходах</p>
+            <p>Организация</p>
+            <input tabindex="6" class="" type="text" placeholder="Megacom">
+        </div>
+        <div class="page-flex">
+            <p>Должность</p>
+            <input tabindex="7" class="" type="text" placeholder="Ведущий бухгалтер">
+        </div>
+        <div class="page-flex">
+            <p>Заработная плата в  месяц</p>
+            <input tabindex="8" class="" type="text" placeholder="">
+        </div>
+        <div class="page-flex">
+            <p>Заработная Плата за посл. 3 месяца</p>
+            <input tabindex="9" class="" type="text" placeholder="">
+        </div>
+        <div class="button-btn">
             <button><a href="#">Далее</a></button>
         </div>
     </form>
